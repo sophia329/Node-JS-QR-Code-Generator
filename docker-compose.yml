@@ -1,0 +1,8 @@
+version: '2.4'
+services:
+  apache:
+    image: sophia329/node-js-qr-code-generator:latest
+    ports:
+    - "80:80"
+    volumes:
+    - .:/usr/local/apache2/htdocs

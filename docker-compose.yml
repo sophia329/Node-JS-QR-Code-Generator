@@ -1,7 +1,7 @@
 version: '2.4'
 services:
   apache:
-    image: sophia329/node-js-qr-code-generator:latest
+    image: sophia329/Node-JS-QR-Code-Generator:latest
     ports:
     - "80:80"
     volumes:
